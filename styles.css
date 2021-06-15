@@ -2,14 +2,47 @@ body {
     font-family: arial, sans-serif;
 }
 
-.page {
-
+#nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    font-size: 13px;
 }
 
-.nav {
-    padding: 15px;
+.nav-text-left {
+    justify-content: flex-start;
 }
 
-.nav-text {
+#nav a, img {
+    margin-right: 20px;
+}
 
+#nav img {
+    margin-top: -3px;
+}
+
+#main {
+    margin-top: 130px;
+}
+
+#center-image {
+    text-align: center;
+}
+
+#search-bar-container {
+    margin-top: 25px;
+    text-align: center;
+}
+
+#search-bar {
+    padding-left: 55px;
+    font-size: 15px;
+    height:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    width: 75%;
+    border-radius: 40px;
+    border: 1px solid #eee;
+    box-shadow: 3px 3px 3px rgb(223, 223, 223);
 }
